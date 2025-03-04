@@ -1,0 +1,12 @@
+.articles {
+  display: flex;
+  height: 80vh;
+}
+.left  {
+  flex: 1;
+}
+.right {
+  flex: 2;
+}
+
+

@@ -1,0 +1,16 @@
+
+.content {
+  display: flex;
+  height: 100%;
+}
+.big , .small {
+  flex: 1;
+}
+.big {
+  background-color: green;
+  height: 100%;
+}
+.small {
+  background-color: blue;
+}
+

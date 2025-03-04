@@ -1,0 +1,43 @@
+.article {
+  display: flex;
+  padding-left: 30px;
+  margin-bottom: 20px;
+
+}
+.small-card-photo {
+  width: 300px;
+  height: 200px;
+
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.small-card-content {
+  flex: 2;
+
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+}
+.small-card-description {
+  margin-bottom: 20px;
+}
+.small-card-description > span {
+  font-size: 11px;
+  color: gray;
+}
+.small-card-noticia {
+    text-align: justify;
+    line-height: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+img {
+  height: 90%;
+  width: 100%;
+}
+
+
