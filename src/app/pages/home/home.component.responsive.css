@@ -1,0 +1,33 @@
+@media screen  and (min-width:1001px) {
+  .articles {
+    display: flex;
+    height: 80vh;
+  }
+  .left  {
+    flex: 1;
+  }
+  .right {
+    flex: 2;
+  }
+}
+
+@media screen and (max-width:1000px) {
+    .articles {
+      display: flex;
+      flex-direction: column;
+    }
+    .left {
+      display: flex;
+      justify-content: center;
+    }
+
+    .right {
+      margin-top: 30px;
+    }
+}
+
+
+
+
+
+

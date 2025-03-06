@@ -1,16 +1,23 @@
-<app-menu-bar></app-menu-bar>
+
 <app-menu-title></app-menu-title>
 
-<div class="articles">
-
-  <div class="left">
-      <app-big-card></app-big-card>
+<div routerLink="/content" class="articles">
+  <div  class="left">
+      <app-big-card
+        id="1"
+        srcOrig="../../../assets/inteligencia-articial.jpg"
+        description=" by Valdemir "
+        title="Ias Generativas"
+        content="
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pellentesque tempor mauris at laoreet. Curabitur vitae gravida lacus. Pellentesque non velit nibh. Vestibulum laoreet, sem sit amet rhoncus scelerisque, justo velit facilisis diam, ut rutrum sem metus ut turpis. Curabitur tempor tellus id ipsum scelerisque, ac fermentum est egestas.
+        "
+      ></app-big-card>
   </div>
 
   <div class="right">
-      <app-small-card src="{{src[0]}}"></app-small-card>
-      <app-small-card src="{{src[1]}}"></app-small-card>
-      <app-small-card src="{{src[2]}}"></app-small-card>
+      <app-small-card id="2" src="{{src[0]}}"></app-small-card>
+      <app-small-card id="3" src="{{src[1]}}"></app-small-card>
+      <app-small-card id="4" src="{{src[2]}}"></app-small-card>
   </div>
 
 </div>

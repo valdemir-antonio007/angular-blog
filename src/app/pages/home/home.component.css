@@ -4,6 +4,7 @@
 }
 .left  {
   flex: 1;
+  cursor: pointer;
 }
 .right {
   flex: 2;

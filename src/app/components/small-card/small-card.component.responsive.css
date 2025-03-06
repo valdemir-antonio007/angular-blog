@@ -1,0 +1,35 @@
+@media screen and (max-width:680px) {
+    .small-card-noticia {
+      font-size: 12px;
+
+    }
+    img {
+      height: 90%;
+      width: 80%;
+    }
+}
+
+@media screen and (max-width:580px) {
+  .article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .small-card-noticia {
+    font-size: 18px;
+    color: green;
+  }
+  img {
+    width: 100%;
+  }
+  .small-card-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-right: 10px;
+  }
+
+}
+
+

@@ -1,0 +1,9 @@
+
+
+@media screen and (max-width:800px) {
+    .menu-title > h1 {
+      font-size: 30px;
+    }
+}
+
+

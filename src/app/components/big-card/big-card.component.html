@@ -1,17 +1,20 @@
 <div class="big-card">
 
     <div class="big-card-imagem">
-      <img src="../../../assets/inteligencia-articial.jpg" alt="">
+
+      <img src="{{srcOrig}}" alt="">
     </div>
 
-    <div class="big-card-description">by Valdemir antonio</div>
+    <div class="big-card-description">
+     {{description}}
+    </div>
 
     <div class="big-card-title">
-     <a href="http://google.com.br"> A evolucao da IA Generativa no mundo atual.</a>
+     <a routerLink="/content/{{id}}" > {{title}}</a>
     </div>
 
     <div class="big-card-content">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel delectus totam soluta asperiores, beatae dolor quasi rerum modi aliquid accusantium ab dolore, doloribus unde quia. Saepe doloribus autem ipsam voluptas.
+      <a routerLink="/content/{{id}}"> {{content}} </a>
     </div>
 
 </div>

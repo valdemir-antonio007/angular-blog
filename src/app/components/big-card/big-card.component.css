@@ -23,8 +23,11 @@ img {
   width: 70%;
 }
 .big-card-content {
-  width: 70%;
+  width: 90%;
   font-size: 21px;
   color: gray;
   margin-top: 15px;
+  text-align: justify;
+  line-height: 25px;
+  text-indent: 50px;
 }
